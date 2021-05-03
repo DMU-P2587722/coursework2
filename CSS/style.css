@@ -94,12 +94,12 @@ color: #f5f7f7;}
 @font-face {
   font-family: birra bruin, sans-serif;
 font-style: normal;
-font-weight: 300
+font-weight: 300;
   src: url();
 }
 /*TABLE STYLESHEET*/
-th{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2;font-size:; text-align: center;font-size: 150%}/*Text align used to keep everything in the cell centered and organised. The font size is increased as I want to emphasise the importance of the information (age rating etc)*/
-td{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2;font-size:; text-align: center;font-size: 125%}/*Text align used to keep everything in the cell centered and organised. The font size is increased as I want to emphasise the importance of the information (age rating etc)*/
+th{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2; text-align: center;font-size: 150%}/*Text align used to keep everything in the cell centered and organised. The font size is increased as I want to emphasise the importance of the information (age rating etc)*/
+td{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2; text-align: center;font-size: 125%}/*Text align used to keep everything in the cell centered and organised. The font size is increased as I want to emphasise the importance of the information (age rating etc)*/
 table{text-align: center;width:100%; margin-top: 20px}/*I used width 100% to space the table equally over the contextual width of the screen. In addition, the text of the table is all centered and concise.*/
 
 .parallax{  /* The image used */
