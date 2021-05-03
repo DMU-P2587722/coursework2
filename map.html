@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>The Mandalorian: Map</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body style="background-color:#000005">
+    <img src="Image/Mando header.png" alt="Main header">
+    <span style="" onclick="openMenu()">&#9776;</span>
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeMenu()">&times;</a>
+  <div class="overlay-content">
+    <a href="home.html">H O M E</a>
+    <a href="cast.html">C H A R A C T E R S</a>
+    <a href="story.html">S T O R  Y</a>
+        <a href="map.html">S T A R M A P</a>
+    <a href="extras.html">E X T R A S</a>
+  </div>
+  </div>
+  <h1> S T A R M A P</h1>
+<p>Hover/Click the planets to read more.</p>
+
+  <!--Nevarro Flip Card-->
+  <div class="flip-card" style="float:left; margin-left: 200px">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Image/Nevarro.png" alt="Nevarro">
+      </div>
+      <div class="flip-card-back">
+        <p>N E V A R R O</p>
+        <p>____________</p>
+        <p>Once a bussling stop for freighters, Nevarro has fallen under the Imperial Remnant's Rule whilst
+        Greef Karga's Bounty Hunter Sect and the Mandalorians dwell in the shadows</p>
+      </div>
+    </div>
+  </div>
+
+
+
+    <!--Arvala 7 Flip Card-->
+    <div class="flip-card" style="float:right; margin-top: 100px; margin-right:200px">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="Image/Arvala 7.png" alt="Arvala">
+        </div>
+        <div class="flip-card-back">
+          <p>A R V A L A 7</p>
+          <p>____________</p>
+          <p>Arvala 7 was a busy mining planet during the war. Now it sits lifeless and barron, with only hermits
+          choosing to live here.</p>
+        </div>
+      </div>
+    </div>
+    <br>
+
+
+<div class="starmap">
+
+</div>
+  <!--Tatooine Flip Card-->
+  <div class="flip-card" style="float:left; margin-top: 300px">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Image/Tatooine.png" alt="Tatooine">
+      </div>
+      <div class="flip-card-back">
+        <p>T A T O O I N E</p>
+        <p>____________</p>
+        <p>Tatooine is a hotspot for trade and treachery. With spaceports like Mos Eisley and Mos Pelgo, you would be wise not to visit this hive of
+        scum and villainy.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Corvus Flip Card-->
+  <div class="flip-card" style="float:right; margin-top: 600px">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Image/corvus.png" alt="Corvus">
+      </div>
+      <div class="flip-card-back">
+        <p>C O R V U S</p>
+        <p>____________</p>
+        <p>Once a beautiful and luscious planet, teeming with wildlife, Corvus is now a corpse of it's former self. After the Imperial takeover, the vegetation has
+        wilted and rotted, leaving only the last few villages to be seen.</p>
+      </div>
+    </div>
+  </div>
+
+  <!--Trask Flip Card-->
+  <div class="flip-card" style="float:left; margin-top: 150px; margin-left:100px">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Image/trask.png" alt="Trask">
+      </div>
+      <div class="flip-card-back">
+        <p>T R A S K</p>
+        <p>____________</p>
+        <p>Trask is an ocean planet and one of the only worlds where Mon Kala and Quarren live in peace. With such a vast freighting and fishing industry, Trask is full of
+        ships from all over the galaxy and is used as an Imperial freighter checkpoint.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!--Moff Gideon's Cruiser Flip Card-->
+  <div class="flip-card" style="float:right; margin-top: 150px; ">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <img src="Image/cruiser.png" alt="Cruiser">
+      </div>
+      <div class="flip-card-back">
+        <p>C R U I S E R</p>
+        <p>____________</p>
+        <p>Moff Gideon's Light Cruiser is one of the only operating Imperial vessels within the Imperial Remnant. Outfitted with Turbo Cannons and Dark Troopers, Moff Gideon's
+          Cruiser will make any Imperial Warlord jealous.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+    <script>
+    function openMenu() {
+      document.getElementById("myNav").style.height = "100%";
+    }
+
+    function closeMenu() {
+      document.getElementById("myNav").style.height = "0%";
+    }
+    </script>
+  </body>
+</html>

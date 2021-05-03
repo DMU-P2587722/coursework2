@@ -1,0 +1,367 @@
+
+body{background-color: black; margin: 0; }
+header{background-color:black;padding:25px;}
+img{max-width: 100%; ; margin-top:5px;}
+a{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2;text-decoration:none; text-align: center;padding-bottom: 10px}
+h1{font-family: 'Josefin Sans', sans-serif; color: #fffbf2; text-align: center;margin-bottom: 30px}
+h2{font-family: 'Teko', sans-serif; color: #fffbf2; text-align: center;margin-bottom: 20px; font-size: 250%; text-shadow: 2px 2px 4px #000000}
+p{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2;text-decoration:none;; text-align: center;margin-bottom: 20px ; text-shadow: 2px 2px 4px #000000}
+h3{font-family: 'Rajdhani', sans-serif;  color:#fffbf2;text-decoration:none;; text-align: center;margin-bottom: 10px}
+footer{padding: 25px; height: 20px; background-color: black}
+iframe{max-width: 100%; text-align: center; max-height: 100%}
+
+/*Swipe menu*/
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.4s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+span{float: left; font-size: 200px;font-size:30px;cursor:pointer; color:white; padding-left: 20px; padding-bottom: 25px;}
+
+/*SOCIAL MEDIA BUTTONS*/
+.fa {
+  padding: 20px;
+  font-size: 100px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+/*Link when hovered over shall turn green as a small hidden reference relating to the riddler.
+ I have done this so that it both teases and gratifies the user, as well as indicates to the user that they are about to select the social media button.*/
+  .fa:hover {
+    background-color: rgba(0,0,0,0);
+    color: #98b3b8}
+/*YOUTUBE BUTTON*/
+
+.fa-youtube {
+    background: rgba(0,0,0,0);
+    color: #f5f7f7;
+  }
+/*INSTAGRAM BUTTON*/
+  .fa-instagram {
+  background: rgba(0,0,0,0);
+  color: #f5f7f7}
+/*TWITTER BUTTON*/
+.fa-twitter {
+background: rgba(0,0,0,0);
+color: #f5f7f7;}
+@font-face {
+  font-family: birra bruin, sans-serif;
+font-style: normal;
+font-weight: 300
+  src: url();
+}
+/*TABLE STYLESHEET*/
+th{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2;font-size:; text-align: center;font-size: 150%}/*Text align used to keep everything in the cell centered and organised. The font size is increased as I want to emphasise the importance of the information (age rating etc)*/
+td{font-family: 'Josefin Sans', sans-serif;  color:#fffbf2;font-size:; text-align: center;font-size: 125%}/*Text align used to keep everything in the cell centered and organised. The font size is increased as I want to emphasise the importance of the information (age rating etc)*/
+table{text-align: center;width:100%; margin-top: 20px}/*I used width 100% to space the table equally over the contextual width of the screen. In addition, the text of the table is all centered and concise.*/
+
+.parallax{  /* The image used */
+  background-image: url("../Image/mando.gif");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%
+}
+.breaker div{padding-bottom: 25px }
+.parallax2{  /* The image used */
+  background-image: url("../Image/mando 2.gif");
+
+  /* Set a specific height */
+  min-height: 250px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaxC1{   background-image: url("../Image/mando 6.gif");max-width: 100%  ;min-height: 500px;
+ background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC2{   background-image: url("../Image/mando 5.gif");max-width: 100%  ;min-height: 500px;
+  background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC3{   background-image: url("../Image/mando 4.gif");max-width: 100%  ;min-height: 500px;
+   background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC4{   background-image: url("../Image/mando 7.gif");max-width: 100%  ;min-height: 500px;
+    background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC5{   background-image: url("../Image/mando 8.gif");max-width: 100%  ;min-height: 500px;
+     background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC6{   background-image: url("../Image/mando 9.gif");max-width: 100%  ;min-height: 500px;
+      background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC7{   background-image: url("../Image/mando 10.gif");max-width: 100%  ;min-height: 500px;
+       background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC8{   background-image: url("../Image/mando 11.gif");max-width: 100%  ;min-height: 500px;
+        background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC9{   background-image: url("../Image/mando 12.gif");max-width: 100%  ;min-height: 500px;
+         background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC10{   background-image: url("../Image/mando 13.gif");max-width: 100%  ;min-height: 500px;
+          background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC11{   background-image: url("../Image/Bo Katan.gif");max-width: 100%  ;min-height: 500px;
+           background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC12{   background-image: url("../Image/mando 14.gif");max-width: 100%  ;min-height: 500px;
+            background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC13{   background-image: url("../Image/mando 15.gif");max-width: 100%  ;min-height: 500px;
+             background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC14{   background-image: url("../Image/mando 16.gif");max-width: 100%  ;min-height: 500px;
+              background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC15{   background-image: url("../Image/mando 17.gif");max-width: 100%  ;min-height: 500px;
+               background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+.parallaxC16{   background-image: url("../Image/mando 18.gif");max-width: 100%  ;min-height: 500px;
+                background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+
+
+
+
+* {  box-sizing: border-box;}
+
+
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color:  rgba(0,0,0,0);
+  border-width: 2px;
+  width: 50%;
+}
+
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {left: 50%;}
+
+
+
+/* The actual content */
+.content {padding: 20px 30px;background-color: rgba(0,0,0,0);position: relative;  border-radius: 6px;}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 45px;
+  padding-right: 25px;
+  }
+
+
+
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+
+/* Style the tab */
+.tab {
+  float: left;
+color: black;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: #080807;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #1A1919;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color:#2E2E2D;
+
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  width: 70%;
+  border-left: none;
+  height: 300px;
+}
+.tabcontent h2{font-size: 300%}
+.tabcontent img {float:right; max-width: 100%}
+.tablinks img {width: 100px; border-radius: 200px; max-width: 100%}
+/*SLIDESHOW STUFF*/
+.mySlides1 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  border-radius: 20px;
+  margin-left: 50px;
+  margin-bottom: 50px
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 10px;
+  width: auto;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 1.5s cubic-bezier(.07,1.12,.51,1.05);
+  border-radius: 5000px;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.disneyplus {background-image: url("../Image/disney.jpg");max-width: 100%  ;min-height: 300px;
+                background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
+
+/*STAR MAP Stuff*/
+.flip-card {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1.5s;
+  transform-style: preserve-3d;
+  ;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: black;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.homeback {background-image: url("../Image/mandalorian.jpeg");max-width: 100%  ;min-height: 300px;
+                background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;
+                }
