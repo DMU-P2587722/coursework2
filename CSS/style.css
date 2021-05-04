@@ -19,11 +19,11 @@ iframe{max-width: 100%; text-align: center; max-height: 100%}
   top: 0;
   left: 0;
   background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.9);
+  background-color: rgba(0,0,0, 0.9);/*colour and transparency*/
   overflow-y: hidden;
-  transition: 0.4s;
+  transition: 0.4s;/*quick drop down animation so users dont have to wait*/
 }
-
+/*positioning of the links etc*/
 .overlay-content {
   position: relative;
   top: 25%;
@@ -31,7 +31,7 @@ iframe{max-width: 100%; text-align: center; max-height: 100%}
   text-align: center;
   margin-top: 30px;
 }
-
+/*Text decoration and CSS for the links in the overaly menu*/
 .overlay a {
   padding: 8px;
   text-decoration: none;
@@ -128,6 +128,7 @@ table{text-align: center;width:100%; margin-top: 20px}/*I used width 100% to spa
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*Parallax using the same basis as the original parallax but with different GIFs*/
 .parallaxC1{   background-image: url("../Image/mando 6.gif");max-width: 100%  ;min-height: 500px;
  background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
 .parallaxC2{   background-image: url("../Image/mando 5.gif");max-width: 100%  ;min-height: 500px;
@@ -322,6 +323,7 @@ img {vertical-align: middle;}
                 background-attachment: fixed;  background-repeat: no-repeat;  background-size: cover;}
 
 /*STAR MAP Stuff*/
+/*Actual flip card dimensions + background CSS*/
 .flip-card {
   background-color: black;
   width: 300px;
@@ -334,11 +336,11 @@ img {vertical-align: middle;}
   width: 100%;
   height: 100%;
   text-align: center;
-  transition: transform 1.5s;
+  transition: transform 1.5s;/*Animation is smooth and well paced. DONT MAKE IT SUPER FAST*/
   transform-style: preserve-3d;
   ;
 }
-
+/*Flipping animation for the cards. animation done on hover*/
 .flip-card:hover .flip-card-inner {
   transform: rotateY(180deg);
 }
@@ -350,12 +352,12 @@ img {vertical-align: middle;}
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
-
+/*FRONT CARD CSS*/
 .flip-card-front {
   background-color: black;
   color: black;
 }
-
+/*BACK CARD CSS*/
 .flip-card-back {
   background-color: black;
   color: white;
